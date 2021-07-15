@@ -251,6 +251,61 @@
             "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
             "months": [3, 4, 5, 6, 9, 10, 11]
         },
+             {
+            "name": "Cá Homie",
+            "catch": "Cá không biết sài /cauca :>",
+            "rarity": "Siêu Hiếm",
+            "price": 300120.08,
+            "size": [45, 55],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 6, 9, 10, 11]
+        },
+                {
+            "name": "Cua A lác ca",
+            "catch": "Uma cua fake chợ bà trỉu",
+            "rarity": "Bình Thường",
+            "price": 100000.08,
+            "size": [45, 55],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 6, 9, 10, 11]
+        },
+                 {
+            "name": "Cá SPAM",
+            "catch": "Á À MÀY SPAM À",
+            "rarity": "Bình Thường",
+            "price": 1000.08,
+            "size": [45, 55],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 6, 9, 10, 11]
+        },
+                {
+            "name": "Cá ADMIN",
+            "catch": "ĐỐ A CÂU ĐƯỢC EM AHAHAHAHA",
+            "rarity": "Cực Phẩm",
+            "price": 100000.08,
+            "size": [45, 55],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 6, 9, 10, 11]
+        },
+               {
+            "name": "Cá Này Không Phải Cá",
+            "catch": "ĐỐ A CÂU ĐƯỢC EM AHAHAHAHA",
+            "rarity": "Cực Phẩm",
+            "price": 100000.08,
+            "size": [45, 55],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 6, 9, 10, 11]
+        },
+              {
+            "name": "Yeye Cá bơi trong chảo dầu chiên nước mắm",
+            "catch": "Ôi da nước này trơn wa",
+            "rarity": "Trung Bình",
+            "price": 100000.08,
+            "size": [45, 55],
+            "time": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+            "months": [3, 4, 5, 6, 9, 10, 11]
+        },
+           
         {
             "name": "Cá Bà 8",
             "catch": "Camera Di động ...",
