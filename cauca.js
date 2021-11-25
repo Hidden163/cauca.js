@@ -17,13 +17,13 @@ module.exports.onLoad = async () => {
 
     if (!fs.existsSync(dirMaterial)) fs.mkdirSync(dirMaterial, { recursive: true });
     if (!fs.existsSync(dirMaterial + "data.json")) (await axios({
-            url: "https://raw.githubusercontent.com/Hidden.163/cauca.js/main/data.json",
+            url: "https://raw.githubusercontent.com/Hidden163/cauca.js/main/data.json",
             method: 'GET',
             responseType: 'stream'
         })).data.pipe(fs.createWriteStream(dirMaterial + "data.json"));
     
     if (!fs.existsSync(dirMaterial + "fonts/bold-font.ttf")) (await axios({
-            url: "https://raw.githubusercontent.com/Hidden.163/cauca.js/main/items.json",
+            url: "https://raw.githubusercontent.com/Hidden163/cauca.js/main/items.json",
             method: 'GET',
             responseType: 'stream'
         })).data.pipe(fs.createWriteStream(dirMaterial + "items.json"));
