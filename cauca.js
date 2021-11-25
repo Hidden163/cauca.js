@@ -6,12 +6,15 @@ module.exports.config = {
     usages: "cauca [sell/shop/upgrade/info/inventory/status/register]",
     commandCategory: "game-sp",
     cooldowns: 0,
-    dependencies: ["fs-extra","axios"]
+    dependencies: {
+        axios: "",
+        "fs-extra": "",
+    },
 };
 
 module.exports.onLoad = async () => {
-    const fs = require("fs-extra");
-    const axios = require("axios");
+    const fs = global.nodemodule["fs-extra"];
+    const axios = global.nodemodule["axios"];
 
     const dirMaterial = __dirname + `/cache/fishy/`;
 
