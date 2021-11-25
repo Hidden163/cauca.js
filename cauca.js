@@ -17,13 +17,13 @@ module.exports.onLoad = async () => {
 
     if (!fs.existsSync(dirMaterial)) fs.mkdirSync(dirMaterial, { recursive: true });
     if (!fs.existsSync(dirMaterial + "data.json")) (await axios({
-            url: "https://raw.githubusercontent.com/KanzuWakazaki/cauca.js/main/data.json",
+            url: "https://raw.githubusercontent.com/Hidden.163/cauca.js/main/data.json",
             method: 'GET',
             responseType: 'stream'
         })).data.pipe(fs.createWriteStream(dirMaterial + "data.json"));
     
     if (!fs.existsSync(dirMaterial + "fonts/bold-font.ttf")) (await axios({
-            url: "https://raw.githubusercontent.com/KanzuWakazaki/cauca.js/main/items.json",
+            url: "https://raw.githubusercontent.com/Hidden.163/cauca.js/main/items.json",
             method: 'GET',
             responseType: 'stream'
         })).data.pipe(fs.createWriteStream(dirMaterial + "items.json"));
@@ -353,8 +353,7 @@ module.exports.run = async function({ api, event, args, client, Currencies, User
                     "\n[=] [ Độ hiếm ] : " + caught.rarity +
                     "\n[=] [ Mô tả ] : " + caught.catch +
                     "\n[=] [ Xuất Hiện Vào Tháng ] : " + caught.months + 
-                    "\n[=] [ Tổng số tiền có thể kiếm được ] : " + format.format(caught.price) + " Đô" +
-                    "\n[=] [ Credit ] : Kanzu - Nguyễn Thái Hảo" +
+                    "\n[=] [ Tổng số tiền có thể kiếm được ] : " + format.format(caught.price) + "$" +
                     "\n[=] " + dataUser.time + " [=]"
                 , event.threadID, event.messageID);
             }
